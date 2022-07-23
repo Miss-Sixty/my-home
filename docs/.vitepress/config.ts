@@ -1,10 +1,5 @@
 import { defineConfig } from "vitepress";
 
-const ogDescription = "Next Generation Frontend Tooling";
-const ogImage = "https://vitejs.dev/og-image.png";
-const ogTitle = "Vite";
-const ogUrl = "https://vitejs.dev";
-
 export default defineConfig({
   title: "MissSixty 的小站",
   lang: "zh-CN",
@@ -35,15 +30,79 @@ export default defineConfig({
     sidebar: {
       "/toolSoftware/": [
         {
-          text: "安装软件",
+          text: "生活",
           items: [
             {
-              text: "说明",
-              link: "/toolSoftware/",
+              text: "iina",
+              link: "/toolSoftware/iina",
             },
+            {
+              text: "mowglii",
+              link: "/toolSoftware/mowglii",
+            },
+            {
+              text: "chrome",
+              link: "/toolSoftware/chrome",
+            },
+          ],
+        },
+        {
+          text: "工具",
+          items: [
+            {
+              text: "mate",
+              link: "/toolSoftware/mate",
+            },
+            {
+              text: "betterZip",
+              link: "/toolSoftware/betterZip",
+            },
+            {
+              text: "bartender",
+              link: "/toolSoftware/bartender",
+            },
+            {
+              text: "downie",
+              link: "/toolSoftware/downie",
+            },
+          ],
+        },
+        {
+          text: "开发软件",
+          items: [
             {
               text: "vscode",
               link: "/toolSoftware/vscode",
+            },
+
+            {
+              text: "homebrew",
+              link: "/toolSoftware/homebrew",
+            },
+          ],
+        },
+        {
+          text: "前端开发",
+          items: [
+            {
+              text: "pnpm",
+              link: "/toolSoftware/pnpm",
+            },
+            {
+              text: "node",
+              link: "/toolSoftware/node",
+            },
+            {
+              text: "yarn",
+              link: "/toolSoftware/yarn",
+            },
+            {
+              text: "nrm",
+              link: "/toolSoftware/nrm",
+            },
+            {
+              text: "nrm",
+              link: "/toolSoftware/nrm",
             },
           ],
         },
