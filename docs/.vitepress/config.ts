@@ -14,7 +14,10 @@ export default defineConfig({
   themeConfig: {
     logo: "/cat.svg",
     socialLinks: [{ icon: "github", link: "https://github.com/Miss-Sixty" }],
-
+    editLink: {
+      text: "为此页提供修改建议",
+      pattern: "https://github.com/Miss-Sixty/my-home/edit/main/docs/:path",
+    },
     nav: [
       {
         text: "工具软件",
