@@ -18,6 +18,12 @@ export default defineConfig({
       text: "为此页提供修改建议",
       pattern: "https://github.com/Miss-Sixty/my-home/edit/main/docs/:path",
     },
+
+    footer: {
+      // message: "根据 MIT 许可证发布。",
+      copyright: "Copyright © 2022",
+    },
+
     nav: [
       {
         text: "工具软件",
